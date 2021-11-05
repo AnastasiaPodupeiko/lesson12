@@ -57,6 +57,20 @@ body {
   color: white;
   margin: 10px;
 }
+.social > a:hover {
+  cursor: pointer;
+  color: black;
+  background: rgb(155, 187, 196);
+  background: linear-gradient(
+    68deg,
+    rgba(155, 187, 196, 1) 0%,
+    rgba(138, 182, 188, 1) 10%,
+    rgba(107, 143, 146, 1) 29%,
+    rgba(107, 133, 146, 1) 43%,
+    rgba(74, 92, 102, 1) 100%,
+    rgba(74, 99, 102, 1) 100%
+  );
+}
 .right,
 .left {
   display: flex;
